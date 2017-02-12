@@ -6,13 +6,13 @@ public class MilesPerGallon {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("How many miles have you driven?: ");
-		int miles = scan.nextInt();
+		int miles = scan.nextInt(); //Use double to store miles
 		
 		System.out.println("Gallos used on drive?: ");
-		int gallons = scan.nextInt();
+		int gallons = scan.nextInt(); //Use double to store gallons
 		
 		//.printf to use double
-		double mpg = (double) miles / gallons;
+		double mpg = (double) miles / gallons; 
 		System.out.printf("MPG for this trip is: %.2f ", mpg );
 		
 	}
