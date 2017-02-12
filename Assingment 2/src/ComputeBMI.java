@@ -1,9 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 import javax.swing.JOptionPane;
 
 public class ComputeBMI {
 
 	public static void main(String[] args) {
+		
+		Random rand = new Random();
 		
 		//initialize strings for JOptionPane
 		String weight1;
@@ -21,6 +23,11 @@ public class ComputeBMI {
 		JOptionPane.showMessageDialog(null, "Your body mass index number is " + bmi );
 		
 		System.exit(0);
+		
+		
+		
+		
+		
 	}
 
 }
