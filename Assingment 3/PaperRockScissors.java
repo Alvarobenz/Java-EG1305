@@ -24,10 +24,10 @@ public class PaperRockScissors {
 		//Determine who wins and update win
 		if (playermove == cmpmove){
 			gamestatus = "ties";
+			result = "tied";
 			win = 2;		
 		}
 		else if (playermove == 0 &&  cmpmove == 2) {
-			gamestatus = "tied";
 			win = 1;
 			result = "won";
 		}
@@ -54,7 +54,7 @@ public class PaperRockScissors {
 	
 		switch(win){
 			case 0:
-				
+			winner = ;
 		
 		}
 			
