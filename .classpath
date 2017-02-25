@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="Assingment 2/src"/>
 	<classpathentry kind="src" path="Assingment 3"/>
 	<classpathentry kind="src" path="ClassChallenges/src"/>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Assingment 4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="Assingment 2/bin"/>
 </classpath>
