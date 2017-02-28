@@ -23,7 +23,7 @@ public class PaperRockScissors {
 		System.out.println("scissors (0), rock(1), paper(2): ");
 		playerMove = scan.nextInt();
 		
-		//RNG 50 is the max and 1 is min
+		//RNG 3 is the max and 1 is min
 		cmpMove = rand.nextInt(3) + 1;
 		
 		//Determine who wins and update win
