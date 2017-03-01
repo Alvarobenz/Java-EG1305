@@ -8,7 +8,7 @@ public class Prime {
 		Scanner scan = new Scanner(System.in);
 	
 		int i,j;
-		int prime = 1, divisor = 0;
+		int prime = 0, divisor = 0, primeCount = 1;
 		int userInput = 0;
 		
 
@@ -21,7 +21,7 @@ public class Prime {
 
 		for(i=2; i < userInput; i++) {
 			
-			System.out.println(i + "ex");
+						
 			//Highest possible value to check if multiple
 			divisor = i / 2;
 			
@@ -32,16 +32,17 @@ public class Prime {
 				}
 			}//outer for
 			
-			
 			//If prime
 			if(prime == 1) {
-				System.out.printf(i + "\t");			
+				System.out.printf(i + "\t");
+				primeCount++;
 			}
 			
-			
+			//Reset prime
+			prime = 1;
 		}//end outer for
 	
-		
+		System.out.println("\n\nThere are a total of " + primeCount + " prime numbers");
 		
 	}
 }
