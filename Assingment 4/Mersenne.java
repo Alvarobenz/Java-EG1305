@@ -8,7 +8,7 @@ public class Mersenne {
 		//Initialize values
 		Scanner scan = new Scanner(System.in);
 	
-		int i,j;
+		int i;
 		double mersenne = 0;
 		int mersenneCount = 0;
 		int userInput = 0;
@@ -20,6 +20,7 @@ public class Mersenne {
 		userInput = scan.nextInt();
 		
 		i = 2;
+		
 		while(mersenne < userInput) {
 			
 			if(isprime(i)){
