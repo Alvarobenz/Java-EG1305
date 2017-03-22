@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="Assingment 4"/>
 	<classpathentry kind="src" path="Assingment 5"/>
 	<classpathentry kind="src" path="Test code"/>
+	<classpathentry kind="src" path="Assingment 6"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="Assingment 2/bin"/>
 </classpath>
