@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Account {
 
@@ -13,50 +14,49 @@ public class Account {
 		annualInterestRate1 = annualInterestRate;
 	}
 	
-	public void setId(){
-		
+	public void setId(int id1){
+		id = id1;
 		
 	}
 	
 	public int getId(){
-		
+		return id;
 	}
 	
-	public void setBalance(){
-		
+	public void setBalance(double balance1){
+		balance = balance1;
 	}
 	
 	public double getBalance(){
-		
+		return balance;
 	}
 	
-	public void annualInterestRate(){
-		
+	public void setAnnualInterestRate(double annualInterestRate1){
+		annualInterestRate = annualInterestRate1;
 	}
 	
-	public double annualInterestRate(){
-		
+	public double getAnnualInterestRate(){
+		return annualInterestRate;
 	}
 	
 	public String dateCreated(){
-		
+		Date today = new Date();
+		dateCreated = "" + today;
+		return dateCreated;
 	}
 	
 	public double getMonthlyInterestRate(){
-		
+		return annualInterestRate / 12;
 	}
 	
 	public void withdraw(double cash){
-		
+		balance -= cash;
 	}
 	
-	public void deposite(double cash){
-		
+	public void deposit(double cash){
+		balance += cash;
 	}
-	
-	                                                                                                                                                                                                                                                                                                                                                                                                      
-	
-	
+	                                                                                                                                                                                                                                                                                                                                                                                                     
 	public Account(){
 		
 	}
