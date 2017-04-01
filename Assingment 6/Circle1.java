@@ -7,7 +7,7 @@ public class Circle1 {
 		return radius;
 	}
 	
-	public double area(){
+	public double getArea(){
 		return Math.PI * Math.pow(radius, 2);
 	}
 	
@@ -19,8 +19,12 @@ public class Circle1 {
 		return 2 * Math.PI * radius;
 	}
 	
-	public Circle1(double r){
+	public void Circle1(double r){
 		radius = r;
+	}
+	
+	public Circle1(){
+		
 	}
 
 }
