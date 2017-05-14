@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Account {
 
 	private int id;
