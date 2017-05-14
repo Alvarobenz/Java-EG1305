@@ -1,7 +1,6 @@
 import java.util.*;
 import java.lang.*;
 import java.math.*;
-
 public class Chess {
 
 	public static void main(String[] args) {
